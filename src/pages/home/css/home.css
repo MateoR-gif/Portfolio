@@ -1,4 +1,4 @@
-.home {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,16 +6,18 @@
 }
 
 a, li, span, h2 {
-  color: white
+  color: black
 }
 
 .folder {
   width: 100%;
   position: relative;
+  justify-self: start;
 }
 
 .folder-name {
   font-weight: bold;
+  cursor: pointer;
 }
 
 .folder-list {

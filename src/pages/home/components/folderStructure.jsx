@@ -1,10 +1,10 @@
 export const folderStructure = {
     name: "Mateo's Directory",
-    files: ['Archivo1.txt', 'Archivo2.txt'],
+    files: [{name: 'CV', url: './src/assets/home/NCV.pdf'}],
     subfolders: [
         {
             name: 'Projects',
-            files: ['Archivo3.txt'],
+            files: [{name: 'nothing'}],
             subfolders: [],
         },
         {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export function Folder({ name, files, subfolders }) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const toggleFolder = () => {
         setIsOpen(!isOpen);
@@ -15,8 +15,8 @@ export function Folder({ name, files, subfolders }) {
             {isOpen && (
                 <ul className="folder-list">
                     {files.map((file) => (
-                        <li key={file} className="file">
-                            {file}
+                        <li key={file.name} className="file">
+                            <a href={file.url} download>{file.name}</a>
                         </li>
                     ))}
                     {subfolders.map((subfolder) => (
