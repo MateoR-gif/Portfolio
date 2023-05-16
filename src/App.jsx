@@ -1,7 +1,7 @@
 import "./App.css";
 import Loading from "./pages/loading/loading";
 import Home from "./pages/home/home";
-import Footer from "./pages/home/components/Footer";
+import Footer from "./pages/home/components/footer";
 
 function App() {
   return (
