@@ -1,10 +1,11 @@
+import { Folder } from './components/folder';
 import './css/home.css'
+import { folderStructure } from './components/folderStructure';
 
 export default function Home() {
   return (
-    <div className="home">
-      <p>Page on Build</p>
-      <a href='https://github.com/MateoR-gif/Portfolio'>If you want to visit the repository...</a>
-    </div>
+    <article className="home">
+      <Folder {...folderStructure} />
+    </article>
   )
 }

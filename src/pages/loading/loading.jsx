@@ -1,5 +1,4 @@
 import loadingGif from "../../assets/loadingPage/gifs/loadingGif.gif";
-import customHook from "../../assets/loadingPage/img/customHook.jpg";
 import "./css/loadingPage.css";
 import useLoading from "../../hooks/useLoading";
 
@@ -13,7 +12,7 @@ export default function Loading({ children }) {
         {switchAsset ? (
           <img src={loadingGif} alt="loadinggif"></img>
         ) : (
-          <img src={customHook} alt="customHook"></img>
+          <img src={loadingGif} alt="loadinggif"></img>
         )}
       </div>
     );

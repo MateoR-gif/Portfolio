@@ -1,12 +1,29 @@
 .home {
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+a, li, span, h2 {
+  color: white
+}
 
-  a{
-    color: white
-  }
+.folder {
+  width: 100%;
+  position: relative;
+}
+
+.folder-name {
+  font-weight: bold;
+}
+
+.folder-list {
+  list-style-type: none;
+  padding-left: 20px;
+  position: relative;
+}
+
+.file {
+  margin-left: 15px;
+}

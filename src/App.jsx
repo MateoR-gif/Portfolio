@@ -1,12 +1,20 @@
 import "./App.css";
 import Loading from "./pages/loading/loading";
 import Home from "./pages/home/home";
+import Footer from "./pages/home/components/Footer";
 
 function App() {
   return (
-    <Loading>
-      <Home path="/" />
-    </Loading>
+    <div className="app">
+      <main className="content">
+        <Loading>
+          <Home path="/" />
+        </Loading>
+      </main>
+      <footer className="footer">
+        <Footer />
+      </footer>
+    </div>
   );
 }
 
