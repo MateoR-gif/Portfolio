@@ -13,8 +13,6 @@ body.dark-mode {
 }
 
 .dark-mode header > svg {
-  max-height: 100%;
-  max-width: 100px;
   fill: #f4f1eb;
 }
 
