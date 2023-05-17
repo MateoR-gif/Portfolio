@@ -9,13 +9,13 @@ export const folderStructure = {
         },
         {
             name: 'Certifications',
-            files: ['Archivo4.txt', 'Archivo5.txt'],
-            subfolders: [{name: 'on build'}],
+            files: [{name: 'on build'}],
+            subfolders: [],
         },
         {
             name: 'Laboral Experience',
             files: ['nothing yet'],
-            subfolders: [{name: 'nothing'}]
+            subfolders: [{name: 'on build'}]
         },
     ],
 };
