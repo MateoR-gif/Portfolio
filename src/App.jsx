@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="app">
       <header>
+        <h1>MR</h1>
         <ToggleDark />
       </header>
       <main className="content">

@@ -8,7 +8,7 @@ export default function Loading({ children }) {
   if (loading) {
     return (
       <div className="loadingPage">
-        <p>{msg}</p>
+        <h2>{msg}</h2>
         {/* {switchAsset ? (
           <img src={loadingGif} alt="loadinggif"></img>
         ) : (

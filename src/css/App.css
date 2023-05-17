@@ -3,6 +3,16 @@ body {
   background: #f4f1eb;
 }
 
+header > svg {
+  max-height: 100%;
+  max-width: 100px;
+  fill: #222;
+}
+
+header > svg:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 a,
 li,
 span,
@@ -17,7 +27,7 @@ p {
   }
 
   @media (min-width: 1024px) {
-    font-size: 30px; /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
+    font-size: 25px; /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
   }
 }
 
@@ -25,6 +35,11 @@ p {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding: 30px;
+
+  @media (max-width: 768px) {
+    padding: 0px; /* Aumento del tamaño de la fuente para pantallas más grandes */
+  }
 }
 
 .content {
@@ -34,11 +49,10 @@ p {
 header {
   height: 100px;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   padding: 20px;
 }
 
-header > svg {
-  max-height: 100%;
-  max-width: 100px;
-}
+
+
+

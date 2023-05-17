@@ -9,12 +9,13 @@
 .folder {
   width: 100%;
   position: relative;
-  justify-self: start;
+  
 }
 
 .folder-name {
   font-weight: bold;
   cursor: pointer;
+  
 }
 
 .folder-list {
@@ -25,4 +26,5 @@
 
 .file {
   margin-left: 15px;
+  margin-bottom: 5px;
 }
