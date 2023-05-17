@@ -14,8 +14,8 @@ export const folderStructure = {
         },
         {
             name: 'Laboral Experience',
-            files: ['nothing yet'],
-            subfolders: [{name: 'on build'}]
+            files: [{name: 'on build'}],
+            subfolders: []
         },
     ],
 };
