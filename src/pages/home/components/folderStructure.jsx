@@ -4,18 +4,18 @@ export const folderStructure = {
     subfolders: [
         {
             name: 'Projects',
-            files: [{name: 'nothing'}],
+            files: [{name: 'on build'}],
             subfolders: [],
         },
         {
             name: 'Certifications',
             files: ['Archivo4.txt', 'Archivo5.txt'],
-            subfolders: [],
+            subfolders: [{name: 'on build'}],
         },
         {
             name: 'Laboral Experience',
             files: ['nothing yet'],
-            subfolders: []
+            subfolders: [{name: 'nothing'}]
         },
     ],
 };
