@@ -1,0 +1,12 @@
+body.dark-mode {
+  height: 100%;
+  background: #222;
+}
+
+.dark-mode a,
+.dark-mode li,
+.dark-mode span,
+.dark-mode h2,
+.dark-mode p {
+  color: #f4f1eb;
+}
