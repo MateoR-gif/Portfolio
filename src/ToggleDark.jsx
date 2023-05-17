@@ -11,7 +11,7 @@ const ToggleDark = () => {
 
   return (
     <>
-      {darkMode ? (
+      {darkMode === false ? (
         <svg
           onClick={toggleDarkMode}
           fill="#222"

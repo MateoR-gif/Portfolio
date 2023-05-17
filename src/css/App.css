@@ -9,6 +9,16 @@ span,
 h2,
 p {
   color: black;
+
+  font-size: 16px; /* Tamaño base de la fuente */
+
+  @media (min-width: 768px) {
+    font-size: 18px; /* Aumento del tamaño de la fuente para pantallas más grandes */
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 30px; /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
+  }
 }
 
 .app {
@@ -21,14 +31,14 @@ p {
   flex: 1;
 }
 
-header{
-    height: 100px;
-    display: flex;
-    justify-content: end;
-    padding: 20px;
+header {
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
 }
 
 header > svg {
-    max-height: 100%;
-    max-width: 100px;
+  max-height: 100%;
+  max-width: 100px;
 }
