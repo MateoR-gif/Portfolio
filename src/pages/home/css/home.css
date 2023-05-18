@@ -30,7 +30,7 @@
 }
 
 article{
-  height: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,5 +40,26 @@ article{
 
 .PDFViewer{
   height: 100%;
+  width: 100%;
+}
+
+.ProjectViewer{
+  max-height: 100%;
   width: 90%;
+
+  @media (min-width: 1024px) {
+    width: 70%; /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
+  }
+}
+
+iframe{
+  border: none;
+}
+
+.link{
+  cursor: pointer;
+}
+
+.link:hover{
+  text-decoration: underline;
 }

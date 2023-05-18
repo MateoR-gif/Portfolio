@@ -15,13 +15,15 @@ export function Folder({ name, files, subfolders, handleContentInfo }) {
       {isOpen && (
         <ul className="folder-list">
           {files.map((file) => (
-            <li key={file.name} className="file">
+            <li key={file.name} className="file link">
               <a
                 onClick={() =>
                   handleContentInfo({
                     name: file.name,
                     type: file.type,
+                    largeName: file.largeName,
                     url: file.url,
+                    description: file.description
                   })
                 }
               >

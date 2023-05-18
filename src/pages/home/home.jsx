@@ -10,7 +10,6 @@ export default function Home() {
   const [contentInfo, setContentInfo] = useState();
 
   const handleContentInfo = (info) => {
-    console.log('me hicieron clic')
     setContentInfo(info)
     setIsContentShow(true)
   }
@@ -19,7 +18,8 @@ export default function Home() {
     return (
       <article>
         <Content info={contentInfo} />
-        <p className='goback' onClick={() => setIsContentShow(false)}>{'Go back'}</p>
+        <br />
+        <p className='goback link' onClick={() => setIsContentShow(false)}>{'Go back'}</p>
       </article>
     )
   }
