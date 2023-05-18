@@ -1,7 +1,7 @@
 import { Folder } from './components/folder';
 import './css/home.css'
 import { useState } from 'react';
-import {folderStructure} from './components/folderStructure'
+import { folderStructure } from './components/folderStructure'
 import Content from '../about/content';
 
 export default function Home() {
@@ -18,8 +18,8 @@ export default function Home() {
   if (isContentShow) {
     return (
       <article>
-        <button onClick={() => setIsContentShow(false)}>Go back</button>
         <Content info={contentInfo} />
+        <p className='goback' onClick={() => setIsContentShow(false)}>{'Go back'}</p>
       </article>
     )
   }

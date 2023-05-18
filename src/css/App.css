@@ -1,6 +1,7 @@
 body {
   height: 100%;
   background: #f4f1eb;
+  font-family:'Times New Roman', Times, serif
 }
 
 header > svg {
@@ -20,14 +21,14 @@ h2,
 p {
   color: black;
 
-  font-size: 16px; /* Tamaño base de la fuente */
+  font-size: 18px; /* Tamaño base de la fuente */
 
   @media (min-width: 768px) {
-    font-size: 18px; /* Aumento del tamaño de la fuente para pantallas más grandes */
+    font-size: 20px; /* Aumento del tamaño de la fuente para pantallas más grandes */
   }
 
   @media (min-width: 1024px) {
-    font-size: 25px; /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
+    font-size: 23px; /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
   }
 }
 
@@ -35,7 +36,8 @@ p {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 30px;
+  padding: 10px;
+  height: 100vh;
 
   @media (max-width: 768px) {
     padding: 0px; /* Aumento del tamaño de la fuente para pantallas más grandes */
@@ -44,17 +46,25 @@ p {
 
 .content {
   flex: 1;
+  height: 80%;
 }
 
 header {
-  height: 100px;
+  height: 10%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 
   @media (max-width: 768px) {
     height: 80px; /* Aumento del tamaño de la fuente para pantallas más grandes */
   }
+}
+
+.footer{
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 

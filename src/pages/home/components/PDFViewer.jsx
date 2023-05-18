@@ -1,9 +1,9 @@
 export default function PDFViewer({ info }) {
   const { name, url } = info;
   return (
-    <div>
+    <div className="PDFViewer">
       <h1>Curriculum Vitae</h1>
-      <div style={{ width: '100%', height: '500px' }}>
+      <div style={{ width: '100%', height: '90%' }}>
         <iframe src={url} title={name} style={{ width: '100%', height: '100%' }} />
       </div>
     </div>

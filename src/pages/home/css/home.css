@@ -28,3 +28,17 @@
   margin-left: 15px;
   margin-bottom: 5px;
 }
+
+article{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.PDFViewer{
+  height: 100%;
+  width: 90%;
+}
