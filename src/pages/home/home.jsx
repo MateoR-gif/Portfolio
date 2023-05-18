@@ -18,6 +18,7 @@ export default function Home() {
     return (
       <article>
         <Content info={contentInfo} />
+        <br />
         <p className='goback link' onClick={() => setIsContentShow(false)}>{'Go back'}</p>
       </article>
     )
