@@ -1,6 +1,6 @@
 export const folderStructure = {
     name: "Mateo's Directory",
-    files: [{name: 'CV', type: 'CV', url: './src/assets/home/NCV.pdf'}],
+    files: [{name: 'CV', type: 'CV', url: '/src/assets/home/NCV.pdf'}],
     subfolders: [
         {
             name: 'Projects',
