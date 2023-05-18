@@ -64,6 +64,32 @@ export const folderStructure = {
                     description: ""
                 }],
                 subfolders: []
+            },
+            {
+                name: 'Java',
+                files: [{
+                    name: 'JavaSE Introduction',
+                    type: 'PDF',
+                    largeName: 'Introducción a Java SE',
+                    url: "https://drive.google.com/file/d/1Fqe_qBrZkjtLOM7SeCBHXZKy8Qeq4YPa/preview"
+                },
+                {
+                    name: "JavaSE OOP",
+                    type: "PDF",
+                    largeName: "Java SE Orientado a Objetos",
+                    url: "https://drive.google.com/file/d/1T4WPcCB_DE-k_viukXkKhj-njd6IFuC6/preview"
+                }],
+                subfolders: []
+            },
+            {
+                name: 'Design Patterns',
+                files: [{
+                    name: 'Design Patterns Introduction',
+                    type: 'PDF',
+                    largeName: 'Introducción a los Patrones de Diseño de Software',
+                    url: 'https://drive.google.com/file/d/1t3OgkZituf2dOJrIwfGlvdcOrxy9kd3E/preview'
+                }],
+                subfolders: []
             }],
         },
         {

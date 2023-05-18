@@ -1,16 +1,16 @@
 body {
   height: 100%;
   background: #f4f1eb;
-  font-family:'Times New Roman', Times, serif
+  font-family: 'Times New Roman', Times, serif
 }
 
-header > svg {
+header>svg {
   max-height: 100%;
   max-width: 53.31px;
   fill: #222;
 }
 
-header > svg:hover {
+header>svg:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -21,14 +21,17 @@ h2,
 p {
   color: black;
 
-  font-size: 18px; /* Tamaño base de la fuente */
+  font-size: 18px;
+  /* Tamaño base de la fuente */
 
   @media (min-width: 768px) {
-    font-size: 20px; /* Aumento del tamaño de la fuente para pantallas más grandes */
+    font-size: 20px;
+    /* Aumento del tamaño de la fuente para pantallas más grandes */
   }
 
   @media (min-width: 1024px) {
-    font-size: 23px; /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
+    font-size: 23px;
+    /* Aumento adicional del tamaño de la fuente para pantallas aún más grandes */
   }
 }
 
@@ -40,7 +43,8 @@ p {
   height: 100vh;
 
   @media (max-width: 768px) {
-    padding: 0px; /* Aumento del tamaño de la fuente para pantallas más grandes */
+    padding: 0px;
+    /* Aumento del tamaño de la fuente para pantallas más grandes */
   }
 }
 
@@ -56,17 +60,19 @@ header {
   padding: 10px;
 
   @media (max-width: 768px) {
-    height: 80px; /* Aumento del tamaño de la fuente para pantallas más grandes */
+    height: 80px;
+    /* Aumento del tamaño de la fuente para pantallas más grandes */
   }
 }
 
-.footer{
+.footer {
   height: 10%;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5px;
+  opacity: 0.3;
+
 }
-
-
-
-
