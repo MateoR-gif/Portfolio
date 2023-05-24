@@ -1,8 +1,8 @@
-import "./css/App.css";
-import Loading from "./pages/loading/loading";
-import Home from "./pages/home/home";
-import Footer from "./pages/home/components/footer";
-import ToggleDark from "./ToggleDark";
+import "../css/app/App.css";
+import Loading from "../pages/loading/loading";
+import ToggleDark from "../components/app/ToggleDark";
+import Footer from "../components/app/Footer";
+import Home from "../pages/home/home";
 
 function App() {
   return (

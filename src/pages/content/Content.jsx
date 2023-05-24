@@ -1,5 +1,5 @@
-import PDFViewer from "../home/components/PDFViewer";
-import ProjectViewer from "../home/components/ProjectViewer";
+import PDFViewer from "../../components/content/PDFViewer";
+import ProjectViewer from "../../components/content/ProjectViewer";
 
 export default function Content({ info }) {
   const { type } = info;

@@ -1,5 +1,5 @@
 /* import loadingGif from "../../assets/loadingPage/gifs/loadingGif.gif"; */
-import "./css/loadingPage.css";
+import "../../css/loading/loadingPage.css";
 import useLoading from "../../hooks/useLoading";
 
 export default function Loading({ children }) {

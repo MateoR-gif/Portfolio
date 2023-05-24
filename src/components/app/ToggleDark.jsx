@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./css/AppDark.css"; // Importa el archivo CSS con estilos para el componente
+import "../../css/app/AppDark.css"; // Importa el archivo CSS con estilos para el componente
 
 const ToggleDark = () => {
   const [darkMode, setDarkMode] = useState(false);
